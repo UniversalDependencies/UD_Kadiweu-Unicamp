@@ -14,7 +14,7 @@
 
 ## References
 
-* (citation)
+- Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024). *Corpus Kadiwéu* [Data set]. The Tycho Brahe Platform. [https://www.tycho.iel.unicamp.br/home/corpus/C12](https://www.tycho.iel.unicamp.br/home/corpus/C12)
 
 
 # Changelog
@@ -35,8 +35,8 @@ UPOS: manual native
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Sandalo, Filomena; de Alencar, Leonel Figueiredo
-Contributing: here
-Contact: sandalo@unicamp.br
+Contributors: Sandalo, Filomena Spatti; de Alencar, Leonel Figueiredo; Galves, Charlotte Chambelland; Veronesi, Luiz; Zeman, Daniel
+Contributing: elsewhere
+Contact: sandalo@unicamp.br, leonel.de.alencar@ufc.br
 ===============================================================================
 </pre>
