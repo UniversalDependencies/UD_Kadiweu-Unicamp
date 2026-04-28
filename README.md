@@ -5,16 +5,24 @@ UD_Kadiweu-UNICAMP is a treebank for [Kadiwéu](https://glottolog.org/resource/l
 
 # Introduction
 
-UD_Kadiweu-UNICAMP is a conversion of the constituency treebank for Kadiwéu (ISO-639: `kbc`) of the Tycho Brahe Platform, originally annotated according to an extension of the Penn treebank scheme. It consists of sentences from two textual genre categories: fiction and grammar examples. The first comprises myths orally narrated by native speakers and transcribed using a standardized orthography. The grammar examples include translations of the Portuguese sentences from the data set of Alencar (2021). These translatins were carried by a native speaker of Kadiwéu. 
+UD_Kadiweu-UNICAMP is a conversion of the two constituency treebanks for Kadiwéu (ISO-639: `kbc`) of the Tycho Brahe Platform: *Corpus Kadiwéu* and *Corpus Kadiwéu – gramática pedagógica*. These corpora, currently under development, are being annotated according to an extension of the Penn treebank scheme. They are part of the research project *Digitally annotated corpora of Brazilian Indigenous languages with automatic translation* ([DACILAT](https://bv.fapesp.br/57063)), funded by the São Paulo Research Foundation (FAPESP) under grant No. 22/09158-5. 
+
+The first corpus comprises myths orally narrated by native speakers and transcribed using a standardized orthography by a DACILAT project member who is a PhD student of linguistics at UNICAMP and a native speaker of Kadiwéu. The second corpus consists of elicited sentences, mainly translations of the Portuguese sentences from the data set of Alencar (2021). The translations were carried by native speakers of Kadiwéu.
+
+UD_Kadiweu-UNICAMP contains sentences from both treebanks, comprising, therefore, the two UD textual genre categories fiction and grammar examples. 
 
 
 # Acknowledgments
+The construction of this treebank has been funded by the São Paulo Research Foundation (FAPESP), through the [DACILAT](https://bv.fapesp.br/57063) project under grant No. 22/09158-5. It is part of the post-doctoral research of Leonel Figueiredo de Alencar at the Department of Linguistics of Campinas State University (UNICAMP), under supervision of  Filomena Spatti Sandalo and collaboration of Charlotte Chambelland Galves. 
 
-...
+We are much indebted to the speakers of Kadiwéu for sharing their knowledge of their language, providing translations and acceptability judgements on constructed sentences. 
+
 
 ## References
 
-- Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024). *Corpus Kadiwéu* [Data set]. The Tycho Brahe Platform. [https://www.tycho.iel.unicamp.br/home/corpus/C12](https://www.tycho.iel.unicamp.br/home/corpus/C12)
+- Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024). *Corpus Kadiwéu*. In L. Veronesi & C. Galves (Eds.), *The Tycho Brahe Platform*. Retrieved from https://www.tycho.iel.unicamp.br/
+
+- Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024). *Corpus Kadiwéu – gramática pedagógica*. In L. Veronesi & C. Galves (Eds.), *The Tycho Brahe Platform*. Retrieved from https://www.tycho.iel.unicamp.br/
 
 - Alencar, L. F. de. (2021). Uma gramática computacional de um fragmento do nheengatu / A computational grammar for a fragment of Nheengatu. *Revista de Estudos da Linguagem, 29*(3), 1717–1777. https://doi.org/10.17851/2237-2083.29.3.1717-1777
 
