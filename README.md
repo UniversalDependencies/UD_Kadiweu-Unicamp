@@ -5,13 +5,13 @@ UD_Kadiweu-UNICAMP is a treebank for [Kadiwéu](https://glottolog.org/resource/l
 
 # Introduction
 
-Kadiwéu is a polysynthetic language spoken in the state of Mato Grosso do Sul, Brazil. It is severely endangered. Among the circa 1,500 Kadiwéu people, fewer than 300 speak it, as many have shifted to Portuguese (Pires 2022). It is the only representative of the Waikurúan linguistic family in Brazil.   This family includes four additional languages: Toba, Pilagá, and Mocoví, mostly spoken in Argentina, and Abipón, which was spoken in this country but is extinct (Sandalo 1995).
+Kadiwéu is a polysynthetic language spoken in the state of Mato Grosso do Sul, Brazil. It is severely endangered: among approximately 1,500 Kadiwéu people, fewer than 300 speak the language, as many have shifted to Portuguese (Pires 2022). Kadiwéu is the only representative of the Waikurúan linguistic family in Brazil. This family includes four additional languages: Toba, Pilagá, and Mocoví, mostly spoken in Argentina, and Abipón, formerly spoken in Argentina but now extinct (Sandalo 1995).
 
 UD_Kadiweu-UNICAMP is the first treebank for a Waikurúan language in the UD collection, contributing to the documentation and computational modeling of a poorly documented an under-resourced language family. It is an ongoing project, currently consisting of isolated sentences produced by native speakers, most of which are translations of Portuguese sentences. Future versions will also include narratives and other genres.
 
 # Data source
 
-UD_Kadiweu-UNICAMP draws on *Corpus Kadiwéu – gramática pedagógica*, one of the constituency treebanks for Kadiwéu (ISO-639: `kbc`) on the Tycho Brahe Platform. In future releases, it will incorporate texts from *Corpus Kadiwéu*, the other Kadiwéu constituency treebank on this platform. These corpora, currently under development, are annotated according to an extension of the Penn Treebank scheme. They are part of the research project *Digitally annotated corpora of Brazilian Indigenous languages with automatic translation* ([DACILAT](https://bv.fapesp.br/57063)), funded by the São Paulo Research Foundation (FAPESP) under grant No. 22/09158-5. 
+UD_Kadiweu-UNICAMP draws on *Corpus Kadiwéu – gramática pedagógica* (Sandalo et al. 2024b), one of the constituency treebanks for Kadiwéu (ISO-639: `kbc`) on the Tycho Brahe Platform. In future releases, it will incorporate texts from *Corpus Kadiwéu* (Sandalo et al. 2024a), the other Kadiwéu constituency treebank on this platform. These corpora, currently under development, are annotated according to an extension of the Penn Treebank scheme (Galves et al. 2017, Sandalo & Galves 2023). They are part of the research project *Digitally annotated corpora of Brazilian Indigenous languages with automatic translations* ([DACILAT](https://bv.fapesp.br/57063)), funded by the São Paulo Research Foundation (FAPESP) under grant No. 22/09158-5. 
 
 The first corpus consists of elicited sentences produced by native speakers of Kadiwéu. Most of these sentences are translations of Portuguese sentences from the dataset of Alencar (2021). Additional sentences include translations of ad hoc Portuguese prompts and examples constructed by native speakers to illustrate specific aspects of the language. This material will serve as the basis for the development of a computational and a pedagogical grammar of the language. 
 
@@ -52,12 +52,11 @@ We are much indebted to the speakers of Kadiwéu for sharing their knowledge of 
 
 ## References
 
-- Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024). *Corpus Kadiwéu*. In L. Veronesi & C. Galves (Eds.), *The Tycho Brahe Platform*. Retrieved from https://www.tycho.iel.unicamp.br/
+- Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024a). *Corpus Kadiwéu*. In L. Veronesi & C. Galves (Eds.), *The Tycho Brahe Platform*. https://www.tycho.iel.unicamp.br/
 
-- Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024). *Corpus Kadiwéu – gramática pedagógica*. In L. Veronesi & C. Galves (Eds.), *The Tycho Brahe Platform*. Retrieved from https://www.tycho.iel.unicamp.br/
+- Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024b). *Corpus Kadiwéu – gramática pedagógica*. In L. Veronesi & C. Galves (Eds.), *The Tycho Brahe Platform*. https://www.tycho.iel.unicamp.br/
 
 - Alencar, L. F. de. (2021). Uma gramática computacional de um fragmento do nheengatu / A computational grammar for a fragment of Nheengatu. *Revista de Estudos da Linguagem, 29*(3), 1717–1777. https://doi.org/10.17851/2237-2083.29.3.1717-1777
-
 
 # Changelog
 
