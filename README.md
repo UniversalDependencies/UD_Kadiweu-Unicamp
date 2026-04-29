@@ -13,7 +13,7 @@ UD_Kadiweu-UNICAMP is the first treebank for a Waikurúan language in the UD col
 
 UD_Kadiweu-UNICAMP draws on *Corpus Kadiwéu – gramática pedagógica*, one of the constituency treebanks for Kadiwéu (ISO-639: `kbc`) on the Tycho Brahe Platform. In future releases, it will incorporate texts from *Corpus Kadiwéu*, the other Kadiwéu constituency treebank on this platform. These corpora, currently under development, are annotated according to an extension of the Penn Treebank scheme. They are part of the research project *Digitally annotated corpora of Brazilian Indigenous languages with automatic translation* ([DACILAT](https://bv.fapesp.br/57063)), funded by the São Paulo Research Foundation (FAPESP) under grant No. 22/09158-5. 
 
-The first corpus consists of elicited sentences, mainly translations of Portuguese sentences from the dataset of Alencar (2021). The translations were carried out by native speakers of Kadiwéu. This material will serve as the basis for the development of a computational and a pedagogical grammar of the language. 
+The first corpus consists of elicited sentences produced by native speakers of Kadiwéu. Most of these sentences are translations of Portuguese sentences from the dataset of Alencar (2021). Additional sentences include translations of ad hoc Portuguese prompts and examples constructed by native speakers to illustrate specific aspects of the language. This material will serve as the basis for the development of a computational and a pedagogical grammar of the language. 
 
 The second corpus comprises myths orally narrated by native speakers and transcribed using a standardized orthography by a member of the DACILAT project, a PhD student in linguistics at UNICAMP and a native speaker of Kadiwéu. 
  
