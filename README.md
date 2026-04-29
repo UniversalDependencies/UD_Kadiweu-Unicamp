@@ -1,21 +1,53 @@
 # Summary
 
-UD_Kadiweu-UNICAMP is a treebank for [Kadiwéu](https://glottolog.org/resource/languoid/id/kadi1248) (ISO-639: `kbc`), an endangered Indigenous language of Brazil. It encompasses myths and grammar examples.
+UD_Kadiweu-UNICAMP is a treebank for [Kadiwéu](https://glottolog.org/resource/languoid/id/kadi1248) (ISO-639: `kbc`), an endangered Indigenous language of Brazil. It consists of isolated sentences produced by native speakers.
 
 
 # Introduction
 
-UD_Kadiweu-UNICAMP is a conversion of the two constituency treebanks for Kadiwéu (ISO-639: `kbc`) of the Tycho Brahe Platform: *Corpus Kadiwéu* and *Corpus Kadiwéu – gramática pedagógica*. These corpora, currently under development, are being annotated according to an extension of the Penn treebank scheme. They are part of the research project *Digitally annotated corpora of Brazilian Indigenous languages with automatic translation* ([DACILAT](https://bv.fapesp.br/57063)), funded by the São Paulo Research Foundation (FAPESP) under grant No. 22/09158-5. 
+Kadiwéu is a polysynthetic language spoken by a few hundred people in the state of Mato Grosso do Sul, Brazil. It is the only representative of the Waikurúan linguistic family in Brazil. This family includes four languages spoken in Argentina: Toba, Pilagá, Mocoví, and Abipón.
 
-The first corpus comprises myths orally narrated by native speakers and transcribed using a standardized orthography by a DACILAT project member who is a PhD student of linguistics at UNICAMP and a native speaker of Kadiwéu. The second corpus consists of elicited sentences, mainly translations of the Portuguese sentences from the data set of Alencar (2021). The translations were carried by native speakers of Kadiwéu.
+UD_Kadiweu-UNICAMP is the first treebank for a Waikurúan language in the UD collection, contributing to the documentation and computational modeling of an under-resourced language family. It is an ongoing project, currently consisting of isolated sentences translated from Portuguese by native speakers. Future versions will also include narratives and other genres.
 
-UD_Kadiweu-UNICAMP contains sentences from both treebanks, comprising, therefore, the two UD textual genre categories fiction and grammar examples. 
+# Data source
 
+UD_Kadiweu-UNICAMP draws on *Corpus Kadiwéu – gramática pedagógica*, one of the constituency treebanks for Kadiwéu (ISO-639: `kbc`) on the Tycho Brahe Platform. In future releases, it will incorporate texts from *Corpus Kadiwéu*, the other Kadiwéu constituency treebank on this platform. These corpora, currently under development, are annotated according to an extension of the Penn Treebank scheme. They are part of the research project *Digitally annotated corpora of Brazilian Indigenous languages with automatic translation* ([DACILAT](https://bv.fapesp.br/57063)), funded by the São Paulo Research Foundation (FAPESP) under grant No. 22/09158-5. 
+
+The first corpus consists of elicited sentences, mainly translations of Portuguese sentences from the dataset of Alencar (2021). The translations were carried out by native speakers of Kadiwéu. This material will serve as the basis for the development of a computational and a pedagogical grammar of the language. 
+
+The second corpus comprises myths orally narrated by native speakers and transcribed using a standardized orthography by a member of the DACILAT project, a PhD student in linguistics at UNICAMP and a native speaker of Kadiwéu. 
+ 
+## Annotation
+
+A small set of sentences was first annotated manually to guide the development of an automatic converter in Python. In successive iterations, this tool was applied to generate draft CoNLL-U annotations for new sentences, using information from previously revised UD sentences and from the JSON dump of the constituency treebank on the Tycho Brahe Platform.
+
+The output was subsequently refined through validation with the UD validator and manual correction of the detected issues. These corrections, together with insights from the linguistic literature on Kadiwéu, were used to improve the converter in further iterations.
+
+All sentences were then carefully revised and checked against the original JSON data and the linguistic literature on Kadiwéu.
+
+## Tools
+
+For the development of UD_Kadiweu-UNICAMP, a series of Python scripts have been implemented. These scripts perform, among others, the following tasks:
+
+- Inspecting the JSON dump of the constituency treebank from the Tycho Brahe Platform and converting it into a more human-friendly TXT format.
+
+- Detecting inconsistencies in the original treebank annotation.
+
+- Exploring the Kadiwéu JSON lexicon of the Tycho Brahe Platform.
+
+- Creating draft CoNLL-U files from JSON dumps of constituency treebanks from the Tycho Brahe Platform.
+
+- Comparing the baseline output of the converter with an improved version and with the manually revised UD treebank.
+
+The development of these tools, as well as of UD_Kadiweu-UNICAMP, is being carried out in a separate repository:
+
+https://github.com/leoalenc/kadiweu
 
 # Acknowledgments
-The construction of this treebank has been funded by the São Paulo Research Foundation (FAPESP), through the [DACILAT](https://bv.fapesp.br/57063) project under grant No. 22/09158-5. It is part of the post-doctoral research of Leonel Figueiredo de Alencar at the Department of Linguistics of Campinas State University (UNICAMP), under supervision of  Filomena Spatti Sandalo and collaboration of Charlotte Chambelland Galves. 
 
-We are much indebted to the speakers of Kadiwéu for sharing their knowledge of their language, providing translations and acceptability judgements on constructed sentences. 
+The construction of this treebank has been funded by the São Paulo Research Foundation (FAPESP), through the [DACILAT](https://bv.fapesp.br/57063) project under grant No. 22/09158-5. It is part of the post-doctoral research of Leonel Figueiredo de Alencar at the Department of Linguistics of the State University of Campinas (UNICAMP), under the supervision of Filomena Spatti Sandalo and in collaboration with Charlotte Chambelland Galves. 
+
+We are much indebted to the speakers of Kadiwéu for sharing their knowledge of their language and for providing translations and acceptability judgements on constructed sentences. 
 
 
 ## References
@@ -39,7 +71,7 @@ Data available since: UD v2.18
 License: CC BY-NC-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: fiction grammar-examples
+Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
 XPOS: manual native
