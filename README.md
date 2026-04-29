@@ -7,7 +7,7 @@ UD_Kadiweu-UNICAMP is a treebank for [Kadiwéu](https://glottolog.org/resource/l
 
 Kadiwéu is a polysynthetic language spoken by a few hundred people in the state of Mato Grosso do Sul, Brazil. It is the only representative of the Waikurúan linguistic family in Brazil. This family includes four languages spoken in Argentina: Toba, Pilagá, Mocoví, and Abipón.
 
-UD_Kadiweu-UNICAMP is the first treebank for a Waikurúan language in the UD collection, contributing to the documentation and computational modeling of an under-resourced language family. It is an ongoing project, currently consisting of isolated sentences translated from Portuguese by native speakers. Future versions will also include narratives and other genres.
+UD_Kadiweu-UNICAMP is the first treebank for a Waikurúan language in the UD collection, contributing to the documentation and computational modeling of an under-resourced language family. It is an ongoing project, currently consisting of isolated sentences produced by native speakers, most of which are translations of Portuguese sentences. Future versions will also include narratives and other genres.
 
 # Data source
 
@@ -29,7 +29,7 @@ All sentences were then carefully revised and checked against the original JSON 
 
 For the development of UD_Kadiweu-UNICAMP, a series of Python scripts have been implemented. These scripts perform, among others, the following tasks:
 
-- Inspecting the JSON dump of the constituency treebank from the Tycho Brahe Platform and converting it into a more human-friendly TXT format.
+- Inspecting the JSON dump of a constituency treebank from the Tycho Brahe Platform and converting it into a more human-friendly TXT format.
 
 - Detecting inconsistencies in the original treebank annotation.
 
