@@ -7,7 +7,7 @@ UD_Kadiweu-UNICAMP is a treebank for [Kadiwéu](https://glottolog.org/resource/l
 
 Kadiwéu is a polysynthetic language spoken in the state of Mato Grosso do Sul, Brazil. It is severely endangered: among approximately 1,500 Kadiwéu people, fewer than 300 speak the language, as many have shifted to Portuguese (Pires 2022). Kadiwéu is the only representative of the Waikurúan linguistic family in Brazil. This family includes four additional languages: Toba, Pilagá, and Mocoví, mostly spoken in Argentina, and Abipón, formerly spoken in Argentina but now extinct (Sandalo 1995).
 
-UD_Kadiweu-UNICAMP is the first treebank for a Waikurúan language in the UD collection, contributing to the documentation and computational modeling of a poorly documented an under-resourced language family. It is an ongoing project, currently consisting of isolated sentences produced by native speakers, most of which are translations of Portuguese sentences. Future versions will also include narratives and other genres.
+UD_Kadiweu-UNICAMP is the first treebank for a Waikurúan language in the UD collection, contributing to the documentation and computational modeling of a poorly documented and under-resourced language family. It is an ongoing project, currently consisting of isolated sentences produced by native speakers, most of which are translations of Portuguese sentences. Future versions will also include narratives and other genres.
 
 # Data source
 
