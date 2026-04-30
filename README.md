@@ -54,11 +54,20 @@ We are much indebted to the speakers of Kadiwéu for sharing their knowledge of 
 
 ## References
 
+- Alencar, L. F. de. (2021). Uma gramática computacional de um fragmento do nheengatu / A computational grammar for a fragment of Nheengatu. *Revista de Estudos da Linguagem, 29*(3), 1717–1777. https://doi.org/10.17851/2237-2083.29.3.1717-1777
+
+- Galves, C., Sandalo, F., Sena, T. A. de, & Veronesi, L. (2017). Annotating a polysynthetic language: From Portuguese to Kadiwéu. *Cadernos de Estudos Linguísticos, 59*(3), 631–648. https://doi.org/10.20396/cel.v59i3.8651003
+
+- Pires, V. (2022). *Palavras kadiwéu do mundo ancestral e do mundo novo: palavras novas, palavras antigas, palavras humildes e palavras honorificadas* (Master’s thesis). Universidade Estadual de Campinas. https://hdl.handle.net/20.500.12733/4592
+
+- Sandalo, F. (1995). *A grammar of Kadiwéu* (PhD dissertation). University of Pittsburgh.
+
+- Sandalo, F., & Galves, C. (2023). Anotando sintaticamente uma língua originária do Brasil: O problema de Anchieta. *Cadernos de Estudos Linguísticos, 65*, e023007. https://doi.org/10.20396/cel.v65i00.8673592
+
 - Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024a). *Corpus Kadiwéu*. In L. Veronesi & C. Galves (Eds.), *The Tycho Brahe Platform*. https://www.tycho.iel.unicamp.br/
 
 - Sandalo, F., Pires, V., Galves, C., Silva, H., Francisco, O., & Silva, S. (2024b). *Corpus Kadiwéu – gramática pedagógica*. In L. Veronesi & C. Galves (Eds.), *The Tycho Brahe Platform*. https://www.tycho.iel.unicamp.br/
 
-- Alencar, L. F. de. (2021). Uma gramática computacional de um fragmento do nheengatu / A computational grammar for a fragment of Nheengatu. *Revista de Estudos da Linguagem, 29*(3), 1717–1777. https://doi.org/10.17851/2237-2083.29.3.1717-1777
 
 # Changelog
 
