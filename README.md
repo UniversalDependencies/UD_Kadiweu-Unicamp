@@ -47,7 +47,7 @@ https://github.com/leoalenc/kadiweu
 
 # Acknowledgments
 
-The construction of this treebank has been funded by the São Paulo Research Foundation (FAPESP), through the [DACILAT](https://bv.fapesp.br/57063) project under grant No. 22/09158-5. It is part of the post-doctoral research of Leonel Figueiredo de Alencar at the Department of Linguistics of the State University of Campinas (UNICAMP), under the supervision of Filomena Spatti Sandalo and in collaboration with Charlotte Chambelland Galves. 
+The construction of this treebank has been funded by the São Paulo Research Foundation (FAPESP) through the [DACILAT](https://bv.fapesp.br/57063) project (grant No. 22/09158-5). It is part of the postdoctoral research of Leonel Figueiredo de Alencar at the Department of Linguistics of the State University of Campinas (UNICAMP), under the supervision of Filomena Spatti Sandalo, coordinator of the DACILAT project, and in collaboration with Charlotte Chambelland Galves. 
 
 We are much indebted to the speakers of Kadiwéu for sharing their knowledge of their language and for providing translations and acceptability judgements on constructed sentences. 
 
