@@ -19,11 +19,13 @@ The second corpus comprises myths orally narrated by native speakers and transcr
  
 ## Annotation
 
-A small set of sentences was first annotated manually to guide the development of an automatic converter in Python. In successive iterations, this tool was applied to generate draft CoNLL-U annotations for new sentences, using information from previously revised UD sentences and from the JSON dump of the constituency treebank on the Tycho Brahe Platform.
+A small set of sentences was first annotated manually to guide the development of an automatic converter in Python. An initial version of this tool was applied to generate draft CoNLL-U annotations for new sentences, using information from the JSON dump of the constituency treebank on the Tycho Brahe Platform.
 
-The output was subsequently refined through validation with the UD validator and manual correction of the detected issues. These corrections, together with insights from the linguistic literature on Kadiwéu, were used to improve the converter in further iterations.
+In successive iterations, the converter was improved through validation of its output with the UD validator and manual correction of the detected issues. Fully validated sentences were periodically selected from the draft CoNLL-U, manually revised, and added to the gold treebank, taking into account the original JSON data and the linguistic literature on Kadiwéu. Information about lemmatization and features from these gold sentences was fed back into the converter.
 
-All sentences were then carefully revised and checked against the original JSON data and the linguistic literature on Kadiwéu.
+In some cases, the application of the converter or the revision of its output revealed incorrect or incomplete annotation in the source data. These cases were corrected in the Tycho Brahe Platform, and revised JSON dumps were generated.
+
+This inaugural release of UD_Kadiweu-UNICAMP includes 71 sentences out of a total of 203 from *Corpus Kadiwéu – gramática pedagógica* (Sandalo et al. 2024b). Fully revised sentences will be continually added to the development version of the treebank in the coming months.
 
 ## Tools
 
