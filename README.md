@@ -1,17 +1,17 @@
 # Summary
 
-UD_Kadiweu-UNICAMP is a treebank for [Kadiwéu](https://glottolog.org/resource/languoid/id/kadi1248) (ISO-639: `kbc`), an endangered Indigenous language of Brazil. It consists of isolated sentences produced by native speakers.
+UD_Kadiweu-Unicamp is a treebank for [Kadiwéu](https://glottolog.org/resource/languoid/id/kadi1248) (ISO-639: `kbc`), an endangered Indigenous language of Brazil. It consists of isolated sentences produced by native speakers.
 
 
 # Introduction
 
 Kadiwéu is a polysynthetic language spoken in the state of Mato Grosso do Sul, Brazil. It is severely endangered: among approximately 1,500 Kadiwéu people, fewer than 300 speak the language, as many have shifted to Portuguese (Pires 2022). Kadiwéu is the only representative of the Waikurúan linguistic family in Brazil. This family includes four additional languages: Toba, Pilagá, and Mocoví, mostly spoken in Argentina, and Abipón, formerly spoken in Argentina but now extinct (Sandalo 1995).
 
-UD_Kadiweu-UNICAMP is the first treebank for a Waikurúan language in the UD collection, contributing to the documentation and computational modeling of a poorly documented and under-resourced language family. It is an ongoing project, currently consisting of isolated sentences produced by native speakers, most of which are translations of Portuguese sentences. Future versions will also include narratives and other genres.
+UD_Kadiweu-Unicamp is the first treebank for a Waikurúan language in the UD collection, contributing to the documentation and computational modeling of a poorly documented and under-resourced language family. It is an ongoing project, currently consisting of isolated sentences produced by native speakers, most of which are translations of Portuguese sentences. Future versions will also include narratives and other genres.
 
 # Data source
 
-UD_Kadiweu-UNICAMP draws on *Corpus Kadiwéu – gramática pedagógica* (Sandalo et al. 2024b), one of the constituency treebanks for Kadiwéu (ISO-639: `kbc`) on the Tycho Brahe Platform. In future releases, it will incorporate texts from *Corpus Kadiwéu* (Sandalo et al. 2024a), the other Kadiwéu constituency treebank on this platform. These corpora, currently under development, are annotated according to an extension of the Penn Treebank scheme (Galves et al. 2017, Sandalo & Galves 2023). They are part of the research project *Digitally annotated corpora of Brazilian Indigenous languages with automatic translations* ([DACILAT](https://bv.fapesp.br/57063)), funded by the São Paulo Research Foundation (FAPESP) under grant No. 22/09158-5. 
+UD_Kadiweu-Unicamp draws on *Corpus Kadiwéu – gramática pedagógica* (Sandalo et al. 2024b), one of the constituency treebanks for Kadiwéu (ISO-639: `kbc`) on the Tycho Brahe Platform. In future releases, it will incorporate texts from *Corpus Kadiwéu* (Sandalo et al. 2024a), the other Kadiwéu constituency treebank on this platform. These corpora, currently under development, are annotated according to an extension of the Penn Treebank scheme (Galves et al. 2017, Sandalo & Galves 2023). They are part of the research project *Digitally annotated corpora of Brazilian Indigenous languages with automatic translations* ([DACILAT](https://bv.fapesp.br/57063)), funded by the São Paulo Research Foundation (FAPESP) under grant No. 22/09158-5. 
 
 The first corpus consists of elicited sentences produced by native speakers of Kadiwéu. Most of these sentences are translations of Portuguese sentences from the dataset of Alencar (2021). Additional sentences include translations of ad hoc Portuguese prompts and examples constructed by native speakers to illustrate specific aspects of the language. This material will serve as the basis for the development of a computational and a pedagogical grammar of the language. 
 
@@ -25,11 +25,11 @@ In successive iterations, the converter was improved through validation of its o
 
 In some cases, the application of the converter or the revision of its output revealed incorrect or incomplete annotation in the source data. These cases were corrected in the Tycho Brahe Platform, and revised JSON dumps were generated.
 
-This inaugural release of UD_Kadiweu-UNICAMP includes 71 sentences out of a total of 203 from *Corpus Kadiwéu – gramática pedagógica* (Sandalo et al. 2024b). Fully revised sentences will be continually added to the development version of the treebank in the coming months.
+This inaugural release of UD_Kadiweu-Unicamp includes 71 sentences out of a total of 203 from *Corpus Kadiwéu – gramática pedagógica* (Sandalo et al. 2024b). Fully revised sentences will be continually added to the development version of the treebank in the coming months.
 
 ## Tools
 
-For the development of UD_Kadiweu-UNICAMP, a series of Python scripts have been implemented. These scripts perform, among others, the following tasks:
+For the development of UD_Kadiweu-Unicamp, a series of Python scripts have been implemented. These scripts perform, among others, the following tasks:
 
 - Inspecting the JSON dump of a constituency treebank from the Tycho Brahe Platform and converting it into a more human-friendly TXT format.
 
@@ -41,7 +41,7 @@ For the development of UD_Kadiweu-UNICAMP, a series of Python scripts have been 
 
 - Comparing the baseline output of the converter with an improved version and with the manually revised UD treebank.
 
-The development of these tools, as well as of UD_Kadiweu-UNICAMP, is being carried out in a separate repository:
+The development of these tools, as well as of UD_Kadiweu-Unicamp, is being carried out in a separate repository:
 
 https://github.com/leoalenc/kadiweu
 
