@@ -15,7 +15,7 @@ UD_Kadiweu-Unicamp draws on *Corpus Kadiwéu – gramática pedagógica* (Sandal
 
 The first corpus consists of elicited sentences produced by native speakers of Kadiwéu. Most of these sentences are translations of Portuguese sentences from the dataset of Alencar (2021). Additional sentences include translations of ad hoc Portuguese prompts and examples constructed by native speakers to illustrate specific aspects of the language. This material will serve as the basis for the development of a computational and a pedagogical grammar of the language. 
 
-The second corpus comprises myths orally narrated by native speakers and transcribed using a standardized orthography by a member of the DACILAT project, a PhD student in linguistics at UNICAMP and a native speaker of Kadiwéu. 
+The second corpus comprises myths orally narrated by native speakers and transcribed using a standardized orthography by a member of the DACILAT project, a PhD student in linguistics at Unicamp and a native speaker of Kadiwéu. 
  
 ## Annotation
 
@@ -47,7 +47,7 @@ https://github.com/leoalenc/kadiweu
 
 # Acknowledgments
 
-The construction of this treebank has been funded by the São Paulo Research Foundation (FAPESP) through the [DACILAT](https://bv.fapesp.br/57063) project (grant No. 22/09158-5). It is part of the postdoctoral research of Leonel Figueiredo de Alencar at the Department of Linguistics of the State University of Campinas (UNICAMP), under the supervision of Filomena Spatti Sandalo, coordinator of the DACILAT project, and in collaboration with Charlotte Chambelland Galves. 
+The construction of this treebank has been funded by the São Paulo Research Foundation (FAPESP) through the [DACILAT](https://bv.fapesp.br/57063) project (grant No. 22/09158-5). It is part of the postdoctoral research of Leonel Figueiredo de Alencar at the Department of Linguistics of the State University of Campinas (Unicamp), under the supervision of Filomena Spatti Sandalo, coordinator of the DACILAT project, and in collaboration with Charlotte Chambelland Galves. 
 
 We are much indebted to the speakers of Kadiwéu for sharing their knowledge of their language and for providing translations and acceptability judgements on constructed sentences. 
 
